@@ -1,0 +1,69 @@
+*{
+    list-style:none;
+    margin:0; 
+    padding:0;
+    text-decoration:none;
+    background-color: rgb(250, 229, 226);
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        align-items: center;
+    flex-direction: row;
+    }
+    .header__svg{
+        margin-right: 5%;
+        color:black;
+        background-color: transparent;
+        border: none;
+        align-items: center;
+    }
+    .titulo{
+        display: grid;
+        width:100%;
+        flex-direction: column;
+        justify-items: center;
+        align-items: stretch;
+        font-family: Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 2em;
+    }
+    .free{
+        width: 90%;
+        height: 550%;
+        margin-left: 50px;
+        font-size: 10px;
+        color: white;
+        background-color: purple;
+        border-radius: 10px;
+        border: none;
+    }
+    .fotoapp{
+        display: grid;
+        width: 100%;
+        height: 50vh;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    .marcas{
+        display:grid;
+        grid-template-columns: repeat(7, 1fr);
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin: 25px;
+    }
+    .marcas > div{  
+      text-align: 50%;
+    }
+  .marcas img{
+    max-width: 80%;
+    width: 120px;
+    height: 90px;
+  }
+    
